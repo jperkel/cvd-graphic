@@ -9,6 +9,7 @@ p <- ggplot(diamonds, aes(x = price, fill = cut)) +
   theme_minimal() +
   geom_histogram() +
   labs(x = "Price (USD)", y = "Count")
+# Check output in a CVD simulator
 cvdPlot(p)
 
 # Okabe-Ito palette... check output in a CVD simulator
